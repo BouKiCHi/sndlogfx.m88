@@ -1,0 +1,127 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOGEX 0, 0, 218, 166
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "音源ログ"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "REC",IDC_REC,14,97,23,16
+    GROUPBOX        "コントロール",IDC_STATIC,8,85,106,33
+    PUSHBUTTON      "STOP",IDC_STOP,47,97,24,16
+    EDITTEXT        IDC_LOGNAME,14,14,164,14,ES_AUTOHSCROLL
+    GROUPBOX        "録音ログファイル名",IDC_STATIC,8,3,192,29
+    PUSHBUTTON      "...",IDC_FILE,182,14,13,13
+    EDITTEXT        IDC_RECTIME,49,68,57,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "REC TIME:",IDC_STATIC,13,70,32,8
+    PUSHBUTTON      "PAUSE",IDC_PAUSE,81,97,26,16
+    LTEXT           "STATUS:",IDC_STATIC,113,70,29,9
+    EDITTEXT        IDC_STATUS,143,68,52,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "sndlogfx ver 0.6",IDC_STATIC,15,147,47,8,WS_DISABLED
+    PUSHBUTTON      "NEXT",IDC_NEXT,127,97,26,16,WS_DISABLED
+    CONTROL         "開始時間を初回出力時にする",IDC_SKIP_START_SYNC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,121,102,10
+    GROUPBOX        "連続録音",IDC_STATIC,118,85,82,44
+    PUSHBUTTON      "AUTO",IDC_AUTO,169,97,26,16,WS_DISABLED
+    CONTROL         "レジスタ初期値出力",IDC_REGOUT,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,125,116,68,10
+    EDITTEXT        IDC_SONGNAME,14,43,181,14,ES_AUTOHSCROLL
+    GROUPBOX        "曲名",IDC_STATIC,8,34,192,27
+    CONTROL         "開始時間をキーオン時にする",IDC_SKIP_UNTIL_KEYON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,133,101,10
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 213
+        VERTGUIDE, 8
+        VERTGUIDE, 14
+        VERTGUIDE, 195
+        VERTGUIDE, 200
+        BOTTOMMARGIN, 159
+        HORZGUIDE, 85
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

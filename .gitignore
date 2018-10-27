@@ -1,0 +1,6 @@
+Debug/
+Release/
+.vs/
+.vscode/
+sndlog.ilk
+sndlog.vcxproj.user
